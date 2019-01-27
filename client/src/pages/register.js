@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Page1 extends Component {
+class Register extends Component {
 
   render() {
     return (
@@ -9,4 +9,4 @@ class Page1 extends Component {
   }
 }
 
-export default Page1;
+export default Register;
