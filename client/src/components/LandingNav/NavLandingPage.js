@@ -15,7 +15,7 @@ function LandingPageNav(props) {
                     <div className="body">
                         <div className="main">
                             {/* <a href="/" className="marker"> </a> */}
-                            <div class="row">
+                            <div className="row">
                                 <div className="col-md-6 offset-md-3">
                                     <a href="/">
                                         <h1 className="mainHeading">STEPS</h1>
