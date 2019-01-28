@@ -14,12 +14,21 @@ function LandingPageNav(props) {
                 <div className="col l5 s12">
                     <div className="body">
                         <div className="main">
-                            <a href="/" className="marker"> </a>
-                            <a href="/"><h1 className="r">S</h1></a>
-                            <a href="/"><h1 className="e1">T</h1></a>
+                            {/* <a href="/" className="marker"> </a> */}
+                            <div class="row">
+                                <div className="col-md-6 offset-md-3">
+                                    <a href="/">
+                                        <h1 className="mainHeading">STEPS</h1>
+                                    </a>
+                                </div>
+                                <div className="col-md offset-md">
+                                    <h1 className="subHeading">A step towards new learning..</h1></div>
+                            </div>
+
+                            {/* <a href="/"><h1 className="e1">T</h1></a>
                             <a href="/"><h1 className="s1">E</h1></a>
                             <a href="/"><h1 className="s2">P</h1></a>
-                            <a href="/"><h1 className="e2">S</h1></a>
+                            <a href="/"><h1 className="e2">S</h1></a> */}
                         </div>
                     </div>
                 </div>
