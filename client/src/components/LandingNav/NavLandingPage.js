@@ -21,8 +21,8 @@ function LandingPageNav(props) {
                                         <h1 className="mainHeading">STEPS</h1>
                                     </a>
                                 </div>
-                                <div className="col-md offset-md-1">
-                                    <h2 className="subHeading">A step towards new learning..</h2></div>
+                                <div className="col-md offset-md">
+                                    <h1 className="subHeading">A step towards new learning..</h1></div>
                             </div>
 
                             {/* <a href="/"><h1 className="e1">T</h1></a>
