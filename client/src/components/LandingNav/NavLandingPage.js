@@ -20,7 +20,7 @@ function LandingPageNav(props) {
                                     <a href="/">
                                         <h1 className="mainHeading">STEPS</h1>
                                     </a>
-                                    <h1 className="subHeading">A step towards new learning..</h1>
+                                    <h1 className="subHeading">A step towards new learning~</h1>
                                 </div>
                             </div>
                             {/* <div className="row">
