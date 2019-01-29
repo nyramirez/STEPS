@@ -2,14 +2,16 @@
     width: 96vw;
     margin-left: 2vw;
     background-image: linear-gradient(to bottom right,black, #0d47a1,#18ffff, #fff176);
-    margin-top: 1vh;
-    height: 4vw;
+    margin-top: 2vh;
+    height: 9vw;
+    position: fixed;
 }
 
 .footerHeading{
     font-family: 'Fira Sans', sans-serif;
-    padding-top: 1.5%;
-    color: azure;
-    padding-left: 46%;
+    padding-top: 3%;
+    color: black;
+    padding-left: 40%;
+    font-size: 4rem;
 }
 

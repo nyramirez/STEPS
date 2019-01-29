@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import logo from '../../images/STEPS LOGO.png';
+import logo from '../../images/Logo.png';
 import './style.css';
 
 
@@ -16,14 +16,17 @@ function LandingPageNav(props) {
                         <div className="main">
                             {/* <a href="/" className="marker"> </a> */}
                             <div className="row">
-                                <div className="col-md-6 offset-md-3">
+                                <div className="col-md offset-md">
                                     <a href="/">
                                         <h1 className="mainHeading">STEPS</h1>
                                     </a>
+                                    <h1 className="subHeading">A step towards new learning~</h1>
                                 </div>
-                                <div className="col-md offset-md">
-                                    <h1 className="subHeading">A step towards new learning..</h1></div>
                             </div>
+                            {/* <div className="row">
+                                <div className="col offset-md-3">
+                                    <h1 className="subHeading">A step towards new learning..</h1></div>
+                            </div> */}
 
                             {/* <a href="/"><h1 className="e1">T</h1></a>
                             <a href="/"><h1 className="s1">E</h1></a>
