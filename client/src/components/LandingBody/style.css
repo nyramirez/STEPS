@@ -45,9 +45,14 @@ img {
 }
 .card-text{
     font-family: 'Ubuntu', sans-serif;
-    font-size: large;
+    font-size: medium;
 }
 .cardHeading{
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
+    background-color: #2afcfc;
+}
+.card-body{
+    height: 20.5vw;
+    background-color: rgb(243, 245, 247);
 }
