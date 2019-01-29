@@ -6,7 +6,7 @@ import './style.css';
 function Footer(props) {
     return (
         <div className="footer">
-        <h5 className="footerHeading">@Copyright 2018</h5>
+        <h5 className="footerHeading">@Copyright 2019</h5>
         </div>
     );
 }
