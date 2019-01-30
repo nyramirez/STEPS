@@ -10,7 +10,11 @@ const ProfileSchema = new Schema({
   handle: {
     type: String,
     required: true,
-    max: 40
+    max: 32
+  },
+  avatar: {
+    type: String,
+    required: true
   },
   location: {
     type: String
