@@ -41,7 +41,6 @@ img {
 .card-title{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 3rem;
-    text-decoration: underline;
 }
 .card-text{
     font-family: 'Ubuntu', sans-serif;
@@ -55,7 +54,4 @@ img {
 .card-body{
     height: 20.5vw;
     background-color: rgb(243, 245, 247);
-}
-.mainPage{
-    
 }
