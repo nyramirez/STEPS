@@ -1,14 +1,14 @@
 .landingNav{
     width: 96vw;
     margin-left: 2vw;
-    background-image: linear-gradient(to bottom right,black, #0d47a1,#18ffff, #fff176);
+    background-image: linear-gradient(to bottom right,black,#18ffff, #0d47a1,#18ffff, #fff176,black);
 }
 
 .logo {
   width: 10vw;
-    height: 8vw;
-    margin-left: 1vw;
-    margin-top: 1vh;
+  height: 8vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
 }
 
 .landingNavSpacer{
