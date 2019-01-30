@@ -18,7 +18,7 @@ const User = require("../../models/User");
 // @access  Public
 router.get("/test", (req, res) => res.json({ msg: "Users Works" }));
 
-// @route   GET api/users/register
+// @route   POST api/users/register
 // @desc    Register user
 // @access  Public
 router.post("/register", (req, res) => {
@@ -34,16 +34,10 @@ router.post("/register", (req, res) => {
       errors.email = "Email already exists";
       return res.status(400).json(errors);
     } else {
-      const avatar = gravatar.url(req.body.email, {
-        s: "200", // Size
-        r: "pg", // Rating
-        d: "mm" // Default
-      });
-
       const newUser = new User({
         name: req.body.name,
+        title: req.body.title,
         email: req.body.email,
-        avatar,
         password: req.body.password
       });
 
@@ -87,7 +81,7 @@ router.post("/login", (req, res) => {
     bcrypt.compare(password, user.password).then(isMatch => {
       if (isMatch) {
         // User Matched
-        const payload = { id: user.id, name: user.name, avatar: user.avatar }; // Create JWT Payload
+        const payload = { id: user.id, name: user.name, title: user.title }; // Create JWT Payload
 
         // Sign Token
         jwt.sign(
