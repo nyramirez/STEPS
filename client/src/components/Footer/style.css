@@ -1,17 +1,18 @@
 .footer{
+    position: fixed;
+    bottom:1vh;
     width: 96vw;
     margin-left: 2vw;
     background-image: linear-gradient(to bottom right,black, #0d47a1,#18ffff, #fff176);
     margin-top: 2vh;
-    height: 9vw;
-    position: fixed;
+    height: 7vh;
 }
 
 .footerHeading{
     font-family: 'Fira Sans', sans-serif;
-    padding-top: 3%;
+    padding-top: 3vh;
     color: black;
-    padding-left: 40%;
-    font-size: 4rem;
+    padding-left: 43vw;
+    font-size: 2rem;
 }
 

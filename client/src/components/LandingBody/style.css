@@ -53,6 +53,7 @@ img {
     background-color: #2afcfc;
 }
 .card-body{
+    /* max-width: 15vw; */
     height: 20.5vw;
     background-color: rgb(243, 245, 247);
 }
