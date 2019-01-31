@@ -66,11 +66,12 @@ class Register extends Component {
     return (
       <div className="container-fluid mt-3">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-7">
             <img src={KidswComputer} alt="slide" />
           </div>
-          <div className="col-md-6">
-            <h1 className="display-4 text-center">Create your STEPS Account</h1>
+          <div className="col-md-5 userForm">
+            <h1 className="display-4 text-center title">Create your STEPS Account</h1>
+            <br/>
             <p className="lead text-center" />
             <form noValidate onSubmit={this.onSubmit}>
               <TextFieldGroup

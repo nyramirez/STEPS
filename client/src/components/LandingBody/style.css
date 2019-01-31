@@ -27,6 +27,7 @@ img {
 }
 
 .card-img-overlay {
+    margin-left:5vw;
     background-color: rgba(0, 0, 0, 0.466);
     width: 14vw;
 }
