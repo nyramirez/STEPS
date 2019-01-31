@@ -21,13 +21,8 @@ class LandingPageNav extends Component {
     const authLinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <Link className="nav-link" to="/feed">
-            All Post
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/dashboard">
-            Dashboard
+          <Link className="nav-link" to="/create-profile">
+            Create Profile
           </Link>
         </li>
         <li className="nav-item">
