@@ -1,0 +1,51 @@
+.regPage {
+    width: 96vw;
+    height: 78vh;
+    margin: 2vw;;
+}
+
+.card-group {
+    width: 96vw;
+    height: 78vh;
+}
+
+.cardImg {
+    width: 66vw;
+    height: 78vh;
+}
+
+.card-img {
+    width: 66vw;
+    height: 78vh;
+}
+
+.cardText {
+    width: 30vw;
+    height: 78vh;
+    padding-left: 1vw;
+}
+
+.col-form-label {
+    font-size: 2.5rem;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+label {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 2.5rem;
+    padding-left: 1vw;
+}
+
+button {
+    height: 5vh;
+}
+
+input {
+    width: 20vw;
+}
+
