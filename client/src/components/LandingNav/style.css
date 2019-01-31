@@ -1,7 +1,14 @@
-.landingNav{
-    width: 96vw;
-    margin-left: 2vw;
-    background-image: linear-gradient(to bottom right,black,#18ffff, #0d47a1,#18ffff, #fff176,black);
+.landingNav {
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    black,
+    #18ffff,
+    #0d47a1,
+    #18ffff,
+    #fff176,
+    black
+  );
 }
 
 .logo {
@@ -11,15 +18,17 @@
   margin-top: 1vh;
 }
 
-.landingNavSpacer{
-    height: 7vh;
+.landingNavSpacer {
+  height: 7vh;
 }
 
 /* Steps text */
-html { font-size: .5rem; }
+html {
+  font-size: 0.5rem;
+}
 .body {
   margin: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 3rem;
   /* min-height: 100vh; */
   display: flex;
@@ -35,70 +44,129 @@ html { font-size: .5rem; }
   display: flex;
 }
 
-h1 { 
-    margin: 0; 
-    font-weight: bolder;
-    font-size: 5rem;
-    color: black;
+h1 {
+  margin: 0;
+  font-weight: bolder;
+  font-size: 5rem;
+  color: black;
 }
-.marker, .r, .e1, .s1, .s2, .e2 {
-  animation-timing-function: cubic-bezier(0.15,-0.01, 0.58, 1);
+.marker,
+.r,
+.e1,
+.s1,
+.s2,
+.e2 {
+  animation-timing-function: cubic-bezier(0.15, -0.01, 0.58, 1);
   animation-duration: 5s;
   animation-iteration-count: infinite;
   will-change: transform;
 }
 
 .marker {
-  position: absolute; top: -.5rem; left: 31vw;
-  height: .3rem; width: 5rem;
+  position: absolute;
+  top: -0.5rem;
+  left: 31vw;
+  height: 0.3rem;
+  width: 5rem;
   background-color: black;
   animation-name: marker;
 }
 
-.r { margin-left: 32vw;   animation-name: r; }
-.e1 { margin-left: 5vw; animation-name: e1; }
-.s1 { margin-left: 10vw; animation-name: s1; }
-.s2 { margin-left: 15vw; animation-name: s2; }
-.e2 { margin: 0 16rem 0 42rem ; animation-name: e2; }
+.r {
+  margin-left: 32vw;
+  animation-name: r;
+}
+.e1 {
+  margin-left: 5vw;
+  animation-name: e1;
+}
+.s1 {
+  margin-left: 10vw;
+  animation-name: s1;
+}
+.s2 {
+  margin-left: 15vw;
+  animation-name: s2;
+}
+.e2 {
+  margin: 0 16rem 0 42rem;
+  animation-name: e2;
+}
 
-@keyframes r { 
-  0%, 20% { transform: translateX(0); }
-  50%, 70% { transform: translateX(15vw); }
+@keyframes r {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(15vw);
+  }
 }
-@keyframes e1 { 
-  0%, 20% { transform: translateX(0); }
-  50%, 70% { transform: translateX(25vw); }
+@keyframes e1 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(25vw);
+  }
 }
-@keyframes s1 { 
-  0%, 20% { transform: translateX(0); }
-  50%, 70% { transform: translateX(35vw); }
+@keyframes s1 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(35vw);
+  }
 }
-@keyframes s2 { 
-  0%, 20% { transform: translateX(0); }
-  50%, 70% { transform: translateX(25vw); }
+@keyframes s2 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(25vw);
+  }
 }
-@keyframes e2 { 
-  0%, 20% { transform: translateX(0); }
-  50%, 70% { transform: translateX(4vw); }
+@keyframes e2 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(4vw);
+  }
 }
-@keyframes marker { 
-  0%, 20% { transform: translateX(0); }
-  50%, 70% { transform: translateX(67vw); }
+@keyframes marker {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(67vw);
+  }
 }
 /* Finish of Step Text */
 
 .registerText {
-    font-size: 2.6rem;
-    color: black;
+  font-size: 2.6rem;
+  color: black;
 }
 
 .loginText {
-    font-size: 2.6rem;
-    color: black;
+  font-size: 2.6rem;
+  color: black;
 }
 
-.mainHeading{
-  font-family: 'Molengo', sans-serif;
+.mainHeading {
+  font-family: "Molengo", sans-serif;
   -webkit-animation: colorchange 5s infinite alternate;
   margin-left: 25%;
   font-size: -webkit-xxx-large;
@@ -106,59 +174,48 @@ h1 {
 
 @-webkit-keyframes colorchange {
   0% {
-    
-    color:crimson;
+    color: crimson;
   }
-  
+
   10% {
-    
-    color:rgb(233, 66, 66);
+    color: rgb(233, 66, 66);
   }
-  
+
   20% {
-    
-    color:deeppink;
+    color: deeppink;
   }
-  
+
   30% {
-    
     color: #9eb4e2;
   }
-  
+
   40% {
-    
-    color:rgb(192, 192, 44);
+    color: rgb(192, 192, 44);
   }
-  
+
   50% {
-    
-    color:chocolate;
+    color: chocolate;
   }
-  
+
   60% {
-    
     color: rgb(208, 218, 75);
   }
-  
+
   70% {
-    
     color: rgb(190, 15, 117);
   }
   80% {
- 
     color: rgb(75, 12, 134);
   }
-  
+
   90% {
- 
     color: #c22c38;
   }
-  
+
   100% {
-    
-    color:rgb(209, 58, 38);
+    color: rgb(209, 58, 38);
   }
 }
-.subHeading{
-  font-family: 'Dancing Script', cursive;
+.subHeading {
+  font-family: "Dancing Script", cursive;
 }
