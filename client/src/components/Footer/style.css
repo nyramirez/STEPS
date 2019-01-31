@@ -111,3 +111,11 @@
 .aboutPage{
     margin-left: 13vw;
 }
+
+.aboutUs {
+	position:fixed;
+	bottom: 2.7rem;
+	font-size: 2.5rem;
+	color: black;
+	padding-left:45vw;
+}

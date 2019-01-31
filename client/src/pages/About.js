@@ -71,7 +71,7 @@ export default About;
 
 //Second option for cards
 // <div class="row cardRow">
-{/* <div class="col-3">
+/* <div class="col-3">
 <div className="card text-center cardAbout">
     <img className="card-img-top" src={Thanh} alt="Thanh Q Dang" />
     <div className="card-body">
@@ -96,4 +96,4 @@ export default About;
 </div>
 </div>
 </div>
-</div> */}
+</div> */
