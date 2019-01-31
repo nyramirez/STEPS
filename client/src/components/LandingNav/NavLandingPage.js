@@ -31,14 +31,20 @@ class LandingPageNav extends Component {
           </Link>
         </li>
         <li className="nav-item">
-          <img
-            className="rounded-circle"
-            src={user.avatar}
-            alt={user.name}
-            style={{ width: "25px", marginRight: "5px" }}
-            title="Upload an image in dashboard"
-          />{" "}
-          Logout
+          <a
+            href=""
+            onClick={this.onLogoutClick.bind(this)}
+            className="nav-link"
+          >
+            <img
+              className="rounded-circle"
+              src={user.avatar}
+              alt={user.name}
+              style={{ width: "25px", marginRight: "5px" }}
+              title="Upload an image in dashboard"
+            />{" "}
+            Logout
+          </a>
         </li>
       </ul>
     );

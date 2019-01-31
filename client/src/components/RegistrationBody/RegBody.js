@@ -70,8 +70,10 @@ class Register extends Component {
             <img src={KidswComputer} alt="slide" />
           </div>
           <div className="col-md-5 userForm">
-            <h1 className="display-4 text-center title">Create your STEPS Account</h1>
-            <br/>
+            <h1 className="display-4 text-center title">
+              Create your STEPS Account
+            </h1>
+            <br />
             <p className="lead text-center" />
             <form noValidate onSubmit={this.onSubmit}>
               <TextFieldGroup
