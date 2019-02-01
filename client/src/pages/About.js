@@ -27,10 +27,10 @@ class About extends Component {
           <div className="row aboutPage">
           <div className="col-sm-3">
           <a href="https://www.linkedin.com/in/thanhqd90/" target="blank">
-            <div class="hvrbox">
-              <img src={Thanh} alt="Thanh Q Dang" class="hvrbox-layer_bottom aboutImg" />
-              <div class="hvrbox-layer_top">
-              <div class="hvrbox-text">Thanh Q Dang <br/>
+            <div className="hvrbox">
+              <img src={Thanh} alt="Thanh Q Dang" className="hvrbox-layer_bottom aboutImg" />
+              <div className="hvrbox-layer_top">
+              <div className="hvrbox-text">Thanh Q Dang <br/>
               </div>
               </div>
             </div>
@@ -38,10 +38,10 @@ class About extends Component {
           </div>
           <div className="col-sm-3">
           <a href="https://www.linkedin.com/in/akankshakapoor3110/" target="blank">
-            <div class="hvrbox">
-              <img src={Akanksha} alt="Akanksha Kapoor" class="hvrbox-layer_bottom aboutImg" />
-              <div class="hvrbox-layer_top">
-              <div class="hvrbox-text">Akanksha Kapoor <br/>
+            <div className="hvrbox">
+              <img src={Akanksha} alt="Akanksha Kapoor" className="hvrbox-layer_bottom aboutImg" />
+              <div className="hvrbox-layer_top">
+              <div className="hvrbox-text">Akanksha Kapoor <br/>
               </div>
               </div>
             </div>
@@ -49,10 +49,10 @@ class About extends Component {
           </div>
           <div className="col-sm-3">
           <a href="https://www.linkedin.com/in/nestor-ramirez-30465a10/" target="blank">
-            <div class="hvrbox">
-              <img src={Nestor} alt="Nestor Ramirez" class="hvrbox-layer_bottom aboutImg" />
-              <div class="hvrbox-layer_top">
-              <div class="hvrbox-text">Nestor Ramirez<br/>
+            <div className="hvrbox">
+              <img src={Nestor} alt="Nestor Ramirez" className="hvrbox-layer_bottom aboutImg" />
+              <div className="hvrbox-layer_top">
+              <div className="hvrbox-text">Nestor Ramirez<br/>
               </div>
               </div>
             </div>
