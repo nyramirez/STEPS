@@ -3,7 +3,7 @@ import NavLandingPage from "../components/LandingNav/NavLandingPage";
 import LoginBody from "../components/LoginBody/LoginBody";
 import Footer from "../components/Footer/Footer";
 
-class Register extends Component {
+class Login extends Component {
   render() {
     return (
       <div>
@@ -15,4 +15,4 @@ class Register extends Component {
   }
 }
 
-export default Register;
+export default Login;

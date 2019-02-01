@@ -8,11 +8,14 @@ import { clearCurrentProfile } from "./actions/profileActions";
 import { Provider } from "react-redux";
 import store from "./store";
 
-// import PrivateRoute from './components/common/PrivateRoute';
+import PrivateRoute from "./components/common/PrivateRoute";
 import Page1 from "./pages/login";
 import Page2 from "./pages/register";
 import LandingPage from "./pages/landingPage";
+import CreateProfile from "./components/create-profile/CreateProfile";
+
 import About from "./pages/About";
+import Dashboard from "./components/dashboard/Dashboard";
 
 // Check for token
 if (localStorage.jwtToken) {
@@ -44,9 +47,15 @@ class App extends Component {
             {/* <Navbar /> */}
 
             <Route exact path="/" component={LandingPage} />
+            <PrivateRoute exact path="/dashboard" component={Dashboard} />
             <Route exact path="/register" component={Page2} />
             <Route exact path="/login" component={Page1} />
             <Route exact path="/about" component={About} />
+            <PrivateRoute
+              exact
+              path="/create-profile"
+              component={CreateProfile}
+            />
             {/* <Route exact path="/not-found" component={NotFound} /> */}
 
             {/* <Footer /> */}
