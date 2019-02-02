@@ -1,0 +1,207 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  font-size: 1.4rem;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-image: linear-gradient(
+    to bottom right,
+    black,
+    #18ffff,
+    #0d47a1,
+    #18ffff,
+    #fff176,
+    black
+  );
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to bottom right,
+    black,
+    #18ffff,
+    #0d47a1,
+    #18ffff,
+    #fff176,
+    black
+  );
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.mainHeading {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Molengo", sans-serif;
+  -webkit-animation: colorchange 5s infinite alternate;
+}
+
+.subHeading {
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  margin-left: 10%;
+  font-family: "Dancing Script", cursive;
+}
+
+.carousel-inner {
+  width: auto;
+}
+
+.marker,
+.r,
+.e1,
+.s1,
+.s2,
+.e2 {
+  animation-timing-function: cubic-bezier(0.15, -0.01, 0.58, 1);
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.marker {
+  position: absolute;
+  top: -0.5rem;
+  left: 31vw;
+  height: 0.3rem;
+  width: 5rem;
+  background-color: black;
+  animation-name: marker;
+}
+
+.r {
+  margin-left: 32vw;
+  animation-name: r;
+}
+.e1 {
+  margin-left: 5vw;
+  animation-name: e1;
+}
+.s1 {
+  margin-left: 10vw;
+  animation-name: s1;
+}
+.s2 {
+  margin-left: 15vw;
+  animation-name: s2;
+}
+.e2 {
+  margin: 0 16rem 0 42rem;
+  animation-name: e2;
+}
+
+@keyframes r {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(15vw);
+  }
+}
+@keyframes e1 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(25vw);
+  }
+}
+@keyframes s1 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(35vw);
+  }
+}
+@keyframes s2 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(25vw);
+  }
+}
+@keyframes e2 {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(4vw);
+  }
+}
+@keyframes marker {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    transform: translateX(67vw);
+  }
+}
+/* Finish of Step Text */
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: crimson;
+  }
+
+  10% {
+    color: rgb(233, 66, 66);
+  }
+
+  20% {
+    color: deeppink;
+  }
+
+  30% {
+    color: #9eb4e2;
+  }
+
+  40% {
+    color: rgb(192, 192, 44);
+  }
+
+  50% {
+    color: chocolate;
+  }
+
+  60% {
+    color: rgb(208, 218, 75);
+  }
+
+  70% {
+    color: rgb(190, 15, 117);
+  }
+  80% {
+    color: rgb(75, 12, 134);
+  }
+
+  90% {
+    color: #c22c38;
+  }
+
+  100% {
+    color: rgb(209, 58, 38);
+  }
+}

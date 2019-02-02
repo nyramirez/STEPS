@@ -33,25 +33,24 @@ router.post("/register", (req, res) => {
     if (user) {
       errors.email = "Email already exists";
       return res.status(400).json(errors);
-    } else {
-      const newUser = new User({
-        name: req.body.name,
-        title: req.body.title,
-        email: req.body.email,
-        password: req.body.password
-      });
-
-      bcrypt.genSalt(10, (err, salt) => {
-        bcrypt.hash(newUser.password, salt, (err, hash) => {
-          if (err) throw err;
-          newUser.password = hash;
-          newUser
-            .save()
-            .then(user => res.json(user))
-            .catch(err => console.log(err));
-        });
-      });
     }
+    const newUser = new User({
+      name: req.body.name,
+      email: req.body.email,
+      title: req.body.title,
+      password: req.body.password
+    });
+
+    bcrypt.genSalt(10, (err, salt) => {
+      bcrypt.hash(newUser.password, salt, (err, hash) => {
+        if (err) throw err;
+        newUser.password = hash;
+        newUser
+          .save()
+          .then(user => res.json(user))
+          .catch(err => console.log(err));
+      });
+    });
   });
 });
 
@@ -81,7 +80,7 @@ router.post("/login", (req, res) => {
     bcrypt.compare(password, user.password).then(isMatch => {
       if (isMatch) {
         // User Matched
-        const payload = { id: user.id, name: user.name, title: user.title }; // Create JWT Payload
+        const payload = { id: user.id, name: user.name, avatar: user.avatar }; // Create JWT Payload
 
         // Sign Token
         jwt.sign(
