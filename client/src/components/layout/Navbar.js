@@ -65,7 +65,7 @@ class Navbar extends Component {
     );
 
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img src={logo} alt="steps logo" className="logo" />
@@ -92,7 +92,7 @@ class Navbar extends Component {
                 <Link className="nav-link" to="/">
                   <h1 className="mainHeading">STEPS</h1>
                 </Link>
-                {/* <h5 className="subHeading">A step towards new learning~</h5> */}
+                <h5 className="subHeading">A step towards new learning </h5>
               </li>
             </ul>
 
