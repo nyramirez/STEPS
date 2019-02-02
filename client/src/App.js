@@ -28,6 +28,7 @@ import Post from "./components/post/Post";
 import NotFound from "./components/Not-found/NotFound";
 
 import "./App.css";
+import ContactUs from "./components/contactBody/contactBody";
 
 // Check for token
 if (localStorage.jwtToken) {
@@ -103,6 +104,7 @@ class App extends Component {
               <Route exact path="/not-found" component={NotFound} />
             </div>
             <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={ContactUs} />
             <Footer />
           </div>
         </Router>
