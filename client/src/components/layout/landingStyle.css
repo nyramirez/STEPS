@@ -1,0 +1,105 @@
+.landPage {
+  width: 96vw;
+  height: 73vh;
+  padding-left: 11vw;
+  margin: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img {
+  max-width: 75vw;
+  max-height: 72vh;
+}
+
+.imageSpace {
+  max-width: 90vw;
+  max-height: 70vh;
+}
+
+.card-img-overlay {
+  margin-left: 5vw;
+  background-color: rgba(0, 0, 0, 0.466);
+  width: 14vw;
+}
+
+.cardHeading {
+  font-size: 3rem;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+}
+
+.card-header {
+  font-family: "IM Fell Double Pica", serif;
+}
+
+.card-text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.title1 {
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  width: 14vw;
+  color: rgb(223, 157, 34);
+}
+
+.text1 {
+  width: 8vw;
+  padding-left: 1vw;
+  font-size: 1rem;
+}
+
+.title2 {
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  width: 14vw;
+  color: rgb(223, 157, 34);
+}
+
+.text2 {
+  width: 6vw;
+  padding-left: 1vw;
+}
+
+.title3 {
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  width: 14vw;
+  color: rgb(223, 157, 34);
+}
+
+.text3 {
+  width: 6vw;
+  padding-left: 1vw;
+}
+
+.title4 {
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  width: 14vw;
+  color: rgb(223, 157, 34);
+}
+
+.text4 {
+  width: 6vw;
+  padding-left: 1vw;
+}
+
+.carousel-control-prev {
+  margin-left: 10vw;
+}
+
+.carousel-control-next {
+  margin-right: 7vw;
+}
+
+.carousel-indicators {
+  left: -11vw;
+}
