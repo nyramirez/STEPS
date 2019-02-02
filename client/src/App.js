@@ -8,7 +8,7 @@ import { clearCurrentProfile } from "./actions/profileActions";
 import { Provider } from "react-redux";
 import store from "./store";
 
-import PrivateRoute from "./components/common/PrivateRoute";
+import PrivateRoute from "./components/Common/PrivateRoute";
 import About from "./about/About";
 
 import Navbar from "./components/layout/Navbar";

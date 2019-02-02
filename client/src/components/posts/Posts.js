@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import PostForm from './PostForm';
 import PostFeed from './PostFeed';
-import Spinner from '../common/Spinner';
+import Spinner from '../Common/Spinner';
 import { getPosts } from '../../actions/postActions';
 
 class Posts extends Component {

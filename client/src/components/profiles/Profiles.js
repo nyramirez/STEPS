@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import Spinner from "../common/Spinner";
+import Spinner from "../Common/Spinner";
 import ProfileItem from "./ProfileItem";
 import { getProfiles } from "../../actions/profileActions";
 

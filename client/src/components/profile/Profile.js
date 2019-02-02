@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ProfileHeader from "./ProfileHeader";
 import ProfileAbout from "./ProfileAbout";
 import ProfileCreds from "./ProfileCreds";
-import Spinner from "../common/Spinner";
+import Spinner from "../Common/Spinner";
 import { getProfileByHandle } from "../../actions/profileActions";
 
 class Profile extends Component {
