@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { registerUser } from "../../actions/authActions";
-import TextFieldGroup from "../common/TextFieldGroup";
-import SelectListGroup from "../common/SelectListGroup";
+import TextFieldGroup from "../Common/TextFieldGroup";
+import SelectListGroup from "../Common/SelectListGroup";
 
 import KidswComputer from "../../images/computer-person-creative-video-game-play-home-764632-pxhere.com.jpg";
 

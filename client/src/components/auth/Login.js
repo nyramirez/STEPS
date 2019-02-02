@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
-import TextFieldGroup from "../common/TextFieldGroup";
+import TextFieldGroup from "../Common/TextFieldGroup";
 
 import img1 from "../../images/class-classroom-conference-desk-education-exhibit-1560887-pxhere.com.jpg";
 import img2 from "../../images/computer-person-creative-video-game-play-home-764632-pxhere.com.jpg";
