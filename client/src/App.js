@@ -25,7 +25,7 @@ import Profiles from "./components/profiles/Profiles";
 import Profile from "./components/profile/Profile";
 import Posts from "./components/posts/Posts";
 import Post from "./components/post/Post";
-import NotFound from "./components/not-found/NotFound";
+import NotFound from "./components/Not-found/NotFound";
 
 import "./App.css";
 
