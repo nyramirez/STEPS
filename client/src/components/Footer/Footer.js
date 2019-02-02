@@ -8,7 +8,9 @@ export default () => {
       <Link className="aboutUs" to="/about" color="inherit">
         About Us{" "}
       </Link>
-      {/* Copyright &copy; {new Date().getFullYear()} STEPS */}
+      <Link className="contactUs" to="/contact" color="inherit">
+        Contact Us{" "}
+      </Link>
     </footer>
   );
 };

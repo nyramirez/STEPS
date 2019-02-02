@@ -15,6 +15,7 @@ import LandingPage from "./pages/landingPage";
 import CreateProfile from "./components/create-profile/CreateProfile";
 
 import About from "./pages/About";
+import ContactUs from "./pages/ContactUs";
 import Dashboard from "./components/dashboard/Dashboard";
 
 // Check for token
@@ -51,6 +52,7 @@ class App extends Component {
             <Route exact path="/register" component={Page2} />
             <Route exact path="/login" component={Page1} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={ContactUs} />
             <PrivateRoute
               exact
               path="/create-profile"
