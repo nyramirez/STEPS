@@ -19,59 +19,60 @@ class LandingPageNav extends Component {
     const { isAuthenticated, user } = this.props.auth;
 
     const authLinks = (
-      <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
-          <Link className="nav-link" to="/create-profile">
-            Create Profile
-          </Link>
-        </li>
-        <li className="nav-item">
-          <a
-            href=""
-            onClick={this.onLogoutClick.bind(this)}
-            className="nav-link"
-          >
+      <div className="guestLink mx-auto ">
+        <div className="row mx-auto ">
+          <div className="profBtn col-lg-4 col-sm-12 mx-auto border border-primary">
+            <Link className="createProfileText mx-auto " to="/create-profile">
+              Create Profile
+            </Link>
+          </div>
+          <div className="col-lg-4 col-sm-12 m-auto">
             <img
-              className="rounded-circle"
+              className="rounded-circle m-auto userPic"
               src={user.avatar}
               alt={user.name}
-              style={{ width: "25px", marginRight: "5px" }}
               title="Upload an image in dashboard"
-            />{" "}
-            Logout
-          </a>
-        </li>
-      </ul>
+            />
+          </div>
+          <div className="col-lg-4 col-sm-12 m-auto ">
+            <a
+              className= "logoutText"
+              href="/"
+              onClick={this.onLogoutClick.bind(this)}
+            >
+              Logout
+            </a>
+          </div>
+        </div>
+      </div>
     );
 
     const guestLinks = (
-      <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
-          <Link
-            className="nav-link registerText"
+
+      <div className="guestLink mx-auto ">
+        <div className="row mx-auto ">
+          <Link className="registerText mx-auto "
             color="inherit"
             to="/register"
           >
             Register
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link loginText" to="/login">
+        </Link>
+          <Link className="loginText mx-auto " to="/login">
             Login
-          </Link>
-        </li>
-      </ul>
+        </Link>
+        </div>
+      </div>
     );
 
     return (
       <div className="landingNav card-panel">
         <div className="row">
-          <div className="col l3 s12">
+          <div className="col-lg-3 col-sm-12">
             <Link to="/">
               <img src={logo} alt="steps logo" className="logo" />
             </Link>
           </div>
-          <div className="col l5 s12">
+          <div className="col-lg-6 col-sm-12">
             <div className="body">
               <div className="main">
                 <div className="row">
@@ -85,21 +86,9 @@ class LandingPageNav extends Component {
               </div>
             </div>
           </div>
-          <div className="col l4 s12">
-            <div className="row landingNavSpacer" />
-            <div className="row">
-              <div className="col l3 s12" />
-              <div className="col l3 s12">
-                {isAuthenticated ? authLinks : guestLinks}
-                {/* <Link className="registerText" to="/register">
-                  Register{" "}
-                </Link>
-              </div>
-              <div className="col l3 s12">
-                <Link className="loginText" to="/login" color="inherit">
-                  Login
-                </Link> */}
-              </div>
+          <div className="col-lg-3 col-sm-12">
+            <div className="row linkContainer">
+              {isAuthenticated ? authLinks : guestLinks}
             </div>
           </div>
         </div>
