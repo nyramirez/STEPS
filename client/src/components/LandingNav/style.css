@@ -9,10 +9,11 @@
     #fff176,
     black
   );
+  max-height: 14vh;
 }
 
 .logo {
-  width: 10vw;
+  width: 13vw;
   height: 8vw;
   margin-left: 3vw;
   margin-top: 1vh;
@@ -155,14 +156,47 @@ h1 {
 }
 /* Finish of Step Text */
 
+.linkContainer {
+  height: 12vh;
+}
+
+.guestLink {
+  right:0;
+  width: 80%;
+  height: 100%;
+  padding-top: 3vh;
+}
+
 .registerText {
   font-size: 2.6rem;
   color: black;
+  padding:1vw;
 }
 
 .loginText {
   font-size: 2.6rem;
   color: black;
+  padding:1vw;
+}
+
+.profBtn{
+  background-color: #48eb39a2;
+}
+.createProfileText {
+  font-family: 'Martel Sans', sans-serif;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.userPic {
+  height: 100%;
+  width: auto;
+}
+
+.logoutText {
+  font-family: 'Martel Sans', sans-serif;
+  color: rgb(243, 13, 13);
+  font-size: 2.5rem;
 }
 
 .mainHeading {
@@ -219,3 +253,4 @@ h1 {
 .subHeading {
   font-family: "Dancing Script", cursive;
 }
+
