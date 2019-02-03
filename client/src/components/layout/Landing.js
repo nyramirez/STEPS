@@ -17,69 +17,65 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className="landPage">
+      <div className="landPage m-auto">
         <div
           id="carousel-5"
-          className="carousel slide"
+          className="carousel slide m-auto"
           data-ride="carousel"
           data-interval="3000"
         >
-          <ol className="carousel-indicators">
-            <li
-              data-target="#carousel-5"
-              data-slide-to="0"
-              className="active"
-            />
+          <ol className="carousel-indicators m-auto pb-5">
+            <li data-target="#carousel-5" data-slide-to="0" className="active"/>
             <li data-target="#carousel-5" data-slide-to="1" />
             <li data-target="#carousel-5" data-slide-to="2" />
             <li data-target="#carousel-5" data-slide-to="3" />
           </ol>
 
-          <div className="carousel-inner" role="listbox">
-            <div className="carousel-item imageSpace active">
+          <div className="carousel-inner m-auto" role="listbox">
+            <div className="carousel-item imageSpace m-auto active">
               <img className="card-img" src={KidswComputer} alt="slide" />
               <div className="card-img-overlay">
                 <div className="card-header">
-                  <h1 className="cardHeading title1"> Skills </h1>
+                  <h1 className="cardHeading"> Skills </h1>
                 </div>
                 <br />
-                <p className="card-text text1">
+                <p className="card-text">
                   It does not matter who you are or what you do.
                 </p>
                 <br />
                 <br />
-                <p className="card-text text1">
+                <p className="card-text">
                   If you have skills, we would like you to teach us.
                 </p>
               </div>
             </div>
 
-            <div className="carousel-item imageSpace">
+            <div className="carousel-item imageSpace m-auto">
               <img className="card-img" src={CoffeStudy} alt="slide" />
               <div className="card-img-overlay">
                 <div className="card-header">
-                  <h1 className="cardHeading title1"> Teach </h1>
+                  <h1 className="cardHeading"> Teach </h1>
                 </div>
                 <br />
-                <p className="card-text text1">
+                <p className="card-text">
                   We promote your skills and talent
                 </p>
                 <br />
                 <br />
-                <p className="card-text text1">
+                <p className="card-text">
                   Tell the world what can you teach.
                 </p>
               </div>
             </div>
 
-            <div className="carousel-item imageSpace">
+            <div className="carousel-item imageSpace m-auto">
               <img className="card-img" src={KidSwim} alt="slide" />
               <div className="card-img-overlay">
                 <div className="card-header">
-                  <h1 className="cardHeading title1"> Teach </h1>
+                  <h1 className="cardHeading"> Teach </h1>
                 </div>
                 <br />
-                <p className="card-text text1">
+                <p className="card-text">
                   Learn from people that is profesional by experience, education
                   and practice.
                 </p>
@@ -87,14 +83,14 @@ class Landing extends Component {
               </div>
             </div>
 
-            <div className="carousel-item imageSpace">
+            <div className="carousel-item imageSpace m-auto">
               <img className="card-img" src={People} alt="slide" />
               <div className="card-img-overlay">
                 <div className="card-header">
-                  <h1 className="cardHeading title1"> Safe </h1>
+                  <h1 className="cardHeading"> Safe </h1>
                 </div>
                 <br />
-                <p className="card-text text1">
+                <p className="card-text">
                   All tutors and students have a background verification.
                 </p>
                 <br />
