@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Thanh from "../../images/Thanh.jpg";
 import Nestor from "../../images/Nestor.jpg";
 import Akanksha from "../../images/Akanksha.jpg";
+import "./style.css"
 
 class About extends Component {
   render() {
@@ -9,7 +10,7 @@ class About extends Component {
       <div>
         <br />
         <br />
-        <center><h1>What is STEPS?</h1></center>
+        <center><h2>What is STEPS?</h2></center>
         <div className="container">
           <hr className="underlineStyle" />
           <br></br>
@@ -18,8 +19,7 @@ class About extends Component {
               It does not matter who you are or what you do,if you have skills then this is the platform to showcase your talent.We believe in promoting your skills and talents.We provide tutors for various fields like maths.swimming,abacus,computer language or any other subject.We are here to help with just EVERYTHING!
       </h2>
           <br />
-          <br />
-          <center><h1>Our Visionaries</h1></center>
+          <center><h2>Our Visionaries</h2></center>
           <hr className="underlineStyle" />
           <br />
           <div className="row aboutPage">
@@ -57,41 +57,9 @@ class About extends Component {
               </a>
             </div>
           </div>
-
         </div>
       </div>
     );
   }
 }
-
 export default About;
-
-
-//Second option for cards
-// <div class="row cardRow">
-/* <div class="col-3">
-<div className="card text-center cardAbout">
-    <img className="card-img-top" src={Thanh} alt="Thanh Q Dang" />
-    <div className="card-body">
-      <h5 className="card-title">Thanh Q Dang</h5>
-    </div>
-  </div>
-</div>
-<div class="col-3">
-<div className="card text-center cardAbout">
-  <img className="card-img-top" src={Akanksha} alt="Akanksha Kapoor" />
-  <div className="card-body">
-    <h5 className="card-title">Akanksha Kapoor</h5>
-  </div>
-</div>
-</div>
-<div class="col-3">
-<div className="card text-center cardAbout">
-  <img className="card-img-top" src={Nestor} alt="Nestor Ramirez" />
-  <div className="card-body">
-    <h5 className="card-title">Nestor Ramirez</h5>
-  </div>
-</div>
-</div>
-</div>
-</div> */

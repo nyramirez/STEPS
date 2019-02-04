@@ -124,7 +124,7 @@ class Login extends Component {
               <img src={img6} alt="boom with a heart" className="images" />
             </div>
           </div>
-          <div className="row formSpacer" />
+         {/* <div className="row formSpacer" />
           <div className="row ">
             <div className="col-lg-3 m-auto">
               <img src={img7} alt="conference" className="images" />
@@ -142,8 +142,8 @@ class Login extends Component {
                 className="images"
               />
             </div>
-          </div>
-        </div>
+          </div> */}
+        </div> 
       </div>
     );
   }
