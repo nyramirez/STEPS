@@ -17,18 +17,18 @@ class Navbar extends Component {
 
   render() {
     const { isAuthenticated, user } = this.props.auth;
-
+    console.log(user)
     const authLinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link className="nav-link" to="/profiles">
             {" "}
-            Classes
+            Instructors
                 </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/post">
-            Posts
+            Feed
           </Link>
         </li>
         <li className="nav-item">

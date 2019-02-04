@@ -46,10 +46,10 @@ class CommentForm extends Component {
     const { errors } = this.state;
 
     return (
-      <div className="post-form mb-3">
+      <div className="post-form mb-5 mt-3">
         <div className="card card-info">
           <div className="card-header bg-info text-white">
-            Leave a comment...
+            Leave a reply...
           </div>
           <div className="card-body">
             <form onSubmit={this.onSubmit}>
