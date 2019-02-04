@@ -10,7 +10,9 @@ class Profiles extends Component {
     this.props.getProfiles();
   }
 
+
   render() {
+    console.log(this.props.profile.profiles)
     const { profiles, loading } = this.props.profile;
     let profileItems;
 
