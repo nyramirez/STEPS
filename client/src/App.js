@@ -9,8 +9,8 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 import PrivateRoute from "./components/Common/PrivateRoute";
-import About from "./about/About";
-
+import About from "./components/about/About";
+import ContactUs from "./components/contact/ContactUs";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Landing from "./components/layout/Landing";
@@ -28,7 +28,6 @@ import Post from "./components/post/Post";
 import NotFound from "./components/Not-found/NotFound";
 
 import "./App.css";
-import ContactUs from "./components/contactBody/contactBody";
 
 // Check for token
 if (localStorage.jwtToken) {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Thanh from "../images/Thanh.jpg";
-import Nestor from "../images/Nestor.jpg";
-import Akanksha from "../images/Akanksha.jpg";
+import Thanh from "../../images/Thanh.jpg";
+import Nestor from "../../images/Nestor.jpg";
+import Akanksha from "../../images/Akanksha.jpg";
 
 class About extends Component {
   render() {
