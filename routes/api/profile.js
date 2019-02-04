@@ -28,7 +28,7 @@ router.get(
     const errors = {};
 
     Profile.findOne({ user: req.user.id })
-      .populate("user", ["name", "avatar"])
+      .populate("user", ["name", "title"])
       .then(profile => {
         if (!profile) {
           errors.noprofile = "There is no profile for this user";
@@ -45,10 +45,9 @@ router.get(
 // @access  Public
 router.get("/all", (req, res) => {
   const errors = {};
-  var search_title = req.param('Instructor');
 
-  Profile.find({ title: search_title })
-    .populate("user", ["name", "avatar"])
+  Profile.find({})
+    .populate("user", ["name", "title"])
     .then(profiles => {
       if (!profiles) {
         errors.noprofile = "There are no profiles";
@@ -68,7 +67,7 @@ router.get("/handle/:handle", (req, res) => {
   const errors = {};
 
   Profile.findOne({ handle: req.params.handle })
-    .populate("user", ["name", "avatar"])
+    .populate("user", ["name", "title"])
     .then(profile => {
       if (!profile) {
         errors.noprofile = "There is no profile for this user";
@@ -88,7 +87,7 @@ router.get("/user/:user_id", (req, res) => {
   const errors = {};
 
   Profile.findOne({ user: req.params.user_id })
-    .populate("user", ["name", "avatar"])
+    .populate("user", ["name", "title"])
     .then(profile => {
       if (!profile) {
         errors.noprofile = "There is no profile for this user";
@@ -122,6 +121,7 @@ router.post(
     profileFields.user = req.user.id;
     if (req.body.handle) profileFields.handle = req.body.handle;
     if (req.body.avatar) profileFields.avatar = req.body.avatar;
+    if (req.body.title) profileFields.avatar = req.body.title;
     if (req.body.location) profileFields.location = req.body.location;
     if (req.body.bio) profileFields.bio = req.body.bio;
 

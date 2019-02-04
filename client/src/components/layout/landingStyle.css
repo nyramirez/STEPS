@@ -1,8 +1,6 @@
 .landPage {
-  width: 96vw;
+  width: 96%;
   height: 73vh;
-  padding-left: 11vw;
-  margin: 2rem;
 }
 
 img {
@@ -11,95 +9,51 @@ img {
 }
 
 .card-img {
-  max-width: 75vw;
-  max-height: 72vh;
+  max-width: 82vw;
+  max-height: 80vh;
 }
 
 .imageSpace {
-  max-width: 90vw;
-  max-height: 70vh;
+  max-width: 95vw;
+  padding-left: 5vw;
+  max-height: auto;
+
 }
 
 .card-img-overlay {
-  margin-left: 5vw;
+  margin-left: 12vw;
   background-color: rgba(0, 0, 0, 0.466);
   width: 14vw;
 }
 
 .cardHeading {
-  font-size: 3rem;
+  font-size: 3vw;
   text-align: left;
   background-color: transparent;
-  color: white;
-}
-
-.card-header {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  width: 10vw;
+  color: rgb(223, 157, 34);
   font-family: "IM Fell Double Pica", serif;
 }
 
 .card-text {
   font-family: "Ubuntu", sans-serif;
-  font-size: 2.5rem;
   color: white;
-}
-
-.title1 {
-  padding-top: 4vh;
-  padding-bottom: 2vh;
-  width: 14vw;
-  color: rgb(223, 157, 34);
-}
-
-.text1 {
   width: 8vw;
   padding-left: 1vw;
-  font-size: 1rem;
-}
-
-.title2 {
-  padding-top: 4vh;
-  padding-bottom: 2vh;
-  width: 14vw;
-  color: rgb(223, 157, 34);
-}
-
-.text2 {
-  width: 6vw;
-  padding-left: 1vw;
-}
-
-.title3 {
-  padding-top: 4vh;
-  padding-bottom: 2vh;
-  width: 14vw;
-  color: rgb(223, 157, 34);
-}
-
-.text3 {
-  width: 6vw;
-  padding-left: 1vw;
-}
-
-.title4 {
-  padding-top: 4vh;
-  padding-bottom: 2vh;
-  width: 14vw;
-  color: rgb(223, 157, 34);
-}
-
-.text4 {
-  width: 6vw;
-  padding-left: 1vw;
+  font-size: 1.2vw;
 }
 
 .carousel-control-prev {
-  margin-left: 10vw;
+  margin-left: 15vw;
 }
 
 .carousel-control-next {
-  margin-right: 7vw;
+  margin-right: 12vw;
 }
 
 .carousel-indicators {
-  left: -11vw;
+  width: 20vw;
+  height: 1vh;
 }
