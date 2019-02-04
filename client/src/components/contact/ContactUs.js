@@ -23,14 +23,14 @@ class ContactUs extends Component {
                                         <div className="control-group">
                                             <div className="form-group floating-label-form-group controls mb-0 pb-2">
                                                 <p className="mainLabel">Ask a <strong>STEPS</strong> expert how we can help:</p>
-                                                <p className="contactLabel">Steps - Houston</p>
-                                                   <p className="contactLabel" > 
-                                                   Address: 3030 My Address, Suite 300
+                                                <p className="contactLabel">STEPS - Houston</p>
+                                                   <p> 
+                                                   <strong>Address:</strong> 3030 My Address, Suite 300
                                                             Houston, Texas 77042</p>
-                                                   <p className="contactLabel" >     
-                                                   Contact : XXX-XXX-XXXX
+                                                   <p>     
+                                                   <strong>Contact:</strong> XXX-XXX-XXXX
                                                     </p>
-                                                <p className="contactLabel">Email: stepshelpteam@gmail.com</p>
+                                                <p><strong>Email:</strong> stepshelpteam@gmail.com</p>
                                             </div>
                                         </div>
                                     </div>

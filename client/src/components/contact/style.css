@@ -128,5 +128,8 @@ h1,
     border-radius: 15px 50px;
 }
 .contactLabel{
-  
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    color: cornflowerblue;
 }
