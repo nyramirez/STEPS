@@ -11,20 +11,20 @@ export default () => {
         <div className="col-md-4">
           Copyright &copy; 2019 Steps
         </div>
-        <div className="col-md-4">
+        <div className="col-md-2 linksCol">
           <ul className="navbar-nav ml-auto">
-            <div className="row">
+            <div className="row text-center">
               <div className="col-md-6">
                 <li className="nav-item">
                   <Link className="nav-link" to="/about">
-                    About Us
+                    About
                    </Link>
                 </li>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-2">
                 <li className="nav-item">
                   <Link className="nav-link" to="/contact">
-                    Contact Us
+                    Contact
                   </Link>
                 </li>
               </div>

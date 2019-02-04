@@ -3,3 +3,23 @@
   padding-top: 10px;
   background-color: rgba(85, 168, 246, 0.315);
 }
+
+.registerImage{
+  width: 43vw;
+  height: 32vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2vw;
+  border-radius: 15px 50px;
+}
+
+
+.images{
+  margin-top: 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px 50px;
+}
+
+.register{
+  padding-top: 1.3vw;
+  padding-bottom: 1.5vw;
+}

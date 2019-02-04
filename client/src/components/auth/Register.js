@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import { registerUser } from "../../actions/authActions";
 import TextFieldGroup from "../Common/TextFieldGroup";
 import SelectListGroup from "../Common/SelectListGroup";
-
 import KidswComputer from "../../images/computer-person-creative-video-game-play-home-764632-pxhere.com.jpg";
 
 class Register extends Component {
@@ -68,7 +67,7 @@ class Register extends Component {
         <div className="container-fluid mb-3">
           <div className="row">
             <div className="col-md-7">
-              <img src={KidswComputer} alt="slide" />
+              <img className="registerImage" src={KidswComputer} alt="slide" />
             </div>
             <div className="col-md-5">
               <h1 className="display-4 text-center">Register</h1>
