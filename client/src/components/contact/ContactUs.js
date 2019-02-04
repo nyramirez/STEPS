@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./font-awesome-4.7.0/css/font-awesome.min.css";
 import contactUsImage from "../../images/contactUs.jpg";
-import 'jquery';
 import "./style.css";
 
 
