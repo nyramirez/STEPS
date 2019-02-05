@@ -1,6 +1,6 @@
 .landPage {
   width: 96%;
-  height: 73vh;
+  height: 77vh;
 }
 
 img {
@@ -17,11 +17,10 @@ img {
   max-width: 95vw;
   padding-left: 5vw;
   max-height: auto;
-
 }
 
 .card-img-overlay {
-  margin-left: 12vw;
+  margin-left: 15vw;
   background-color: rgba(0, 0, 0, 0.466);
   width: 14vw;
 }
