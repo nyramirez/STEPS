@@ -10,10 +10,10 @@ import img3 from "../../images/work-sign-training-business-street-sign-yellow-10
 import img4 from "../../images/macbook-working-people-technology-meeting-office-910844-pxhere.com.jpg";
 import img5 from "../../images/writing-book-read-person-people-white-1105803-pxhere.com.jpg";
 import img6 from "../../images/writing-book-read-white-heart-gift-399096-pxhere.com.jpg";
-import img7 from "../../images/african-american-african-descent-afro-american-analyzing-black-1451425-pxhere.com.jpg";
-import img8 from "../../images/work-traffic-sign-training-business-street-sign-1230777-pxhere.com.jpg";
-import img9 from "../../images/kid-swimming.jpg";
-import img10 from "../../images/man-people-white-young-student-smiling-867306-pxhere.com.jpg";
+// import img7 from "../../images/african-american-african-descent-afro-american-analyzing-black-1451425-pxhere.com.jpg";
+// import img8 from "../../images/work-traffic-sign-training-business-street-sign-1230777-pxhere.com.jpg";
+// import img9 from "../../images/kid-swimming.jpg";
+// import img10 from "../../images/man-people-white-young-student-smiling-867306-pxhere.com.jpg";
 
 import "./style.css";
 
